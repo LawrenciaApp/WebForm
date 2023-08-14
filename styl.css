@@ -57,6 +57,11 @@ ul li a:hover{
   color: palevioletred;
 }
 .search{
+  width: 330px;
+  float: left;
+  margin-left: 270px;
+}
+.srch{ 
   font-family: 'Times New Roman';
   width: 200px;
   height: 40px;
