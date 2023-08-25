@@ -3,7 +3,8 @@
       padding: 0;
 }
 .main{
-  width: 100%;
+  box-sizing: border-box;
+  width: 1200px;
    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(lawlaw.jpg);
   background-position: center;
   background-size: cover;
