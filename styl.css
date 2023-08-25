@@ -68,7 +68,7 @@ ul li a:hover{
   background: transparent;
   border: 1px solid #ff7200;
   margin-top: 13px;
-  color: ;
+  color: white;
   border-right: none;
     font-size: 16px;
   float: left;
@@ -227,11 +227,22 @@ font-size: 18px;
 }
 .icons ion-icon{
   color:#fff;
-  font-size: 30px;
+  8font-size: 30px;
   padding-left: 14px;
   padding-top: 5px;
   transition: 0.3s ease;
 }
 .icons ion-icon:hover{
   color: palevioletred;
+}
+@media screen and (max-width: 600px)
+{
+  .content h1{
+   font-size: 50px;
+  letter-spacing: 2px;
+  }
+  
+  .main{
+  width: 100%;
+}
 }
