@@ -6,8 +6,9 @@ body, html {
   height: 100%;
 }
 .main{
-  box-sizing: border-box;
-  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%);
   background-image: url("lawlaw.jpg");
   background-position: center;
@@ -241,14 +242,18 @@ font-size: 18px;
 .icons ion-icon:hover{
   color: palevioletred;
 }
-@media screen and (max-width: 600px)
-{
-  .content h1{
-   font-size: 50px;
-  letter-spacing: 2px;
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+     }
+
+  .main {
+    padding: 8px;
+    background-size: 100% 100%;
   }
-  
-  .main{
-  width: 100%;
 }
+@media (min-width: 769px) {
+  body {
+    font-size: 16px;
+  }
 }
